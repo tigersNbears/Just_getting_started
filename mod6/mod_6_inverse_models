@@ -1,0 +1,81 @@
+here is where I put inverse modeling notes
+
+
+Forward Model:
+Am=d - Linear easier to solve where things scale linearly
+
+
+
+non linear d=A(m)- certain values do not scale with the other parameters.
+
+
+slip= output scales with the input.
+
+
+[1 2][x]   = [4]
+[2 -1][y]    [1]
+
+
+
+
+x + 2y = 4
+x - y= 1
+
+
+
+
+column rep
+
+x [1]	[2]   = [4]
+  [1] +y [-1]	[1]
+
+
+square matrix--
+x and b equal in size
+
+a well posed problem, not typical.
+
+
+
+
+Dense linear algebra
+
+Not equal shapes for x and b for matrix
+
+differnece of pred b and obs b is the well fit of the model
+
+
+as long as the range of a is = m. if A < M then its "rank deficient"?
+
+
+weird E ' a member of '
+
+
+What if A is rectangular?
+Well, then unless b weird E range(A), A x = b has no exact
+solution
+
+least squares solution to an inverse problem ax=b is a vetor x such that ||ax-b|| = minimal
+
+(ax) forward model - (b) data
+
+
+minimum is when ax-b is orhtogenal to the range of A
+
+see powerpoint...
+
+
+
+solution of thoughts
+
+a-Ax perpen. range (A)
+
+<-> b-Ax perp asubj
+<-> asubj.... see powerpoint slide 
+
+
+this will give you the problem well posed- or square matrix
+
+AsupertAx = Asupe(t) * b
+
+

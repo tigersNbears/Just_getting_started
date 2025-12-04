@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+#nummod editor
+
+awk -F',' '{if((NR > 65)&&($5!=-99.99)) {print $4, $5, $6}}' monthly_in_situ_co2_mlo.csv > monthly_co2_clean.txt
